@@ -17,6 +17,8 @@ const config: Config = {
         purple: '#404F84',
         gray: '#D9D9D9',
         'gray_1': '#827D7D',
+        'gray_2': '#443B3B',
+        'gray_3': '#5F5959',
         'creamy': '#E5E5DF'
       },
       padding: {

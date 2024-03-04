@@ -1,4 +1,4 @@
-import ColoredStripe from "./ColoredStripe"
+import ColoredStripe from "@components/ColoredStripe"
 
 interface Props {
   text: string,

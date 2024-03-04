@@ -1,5 +1,5 @@
-import Advert from "./Advert"
-import Nav from "./Nav"
+import Advert from "@components/Advert"
+import Nav from "@components/Nav"
 
 const Header = () => {
   return (

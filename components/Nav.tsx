@@ -1,9 +1,9 @@
-import NavButtonIcon from "./buttons/NavButtonIcon"
-import NavButtonText from "./buttons/NavButtonText"
-import Basket from "./icons/Basket"
-import Person from "./icons/Person"
-import Search from "./icons/Search"
-import Token from "./icons/Token"
+import NavButtonIcon from "@components/buttons/NavButtonIcon"
+import NavButtonText from "@components/buttons/NavButtonText"
+import Basket from "@components/icons/Basket"
+import Person from "@components/icons/Person"
+import Search from "@components/icons/Search"
+import Token from "@components/icons/Token"
 
 
 const TextButtons = () => (

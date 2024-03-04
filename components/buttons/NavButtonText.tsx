@@ -9,7 +9,7 @@ interface Props {
 
 const NavButtonText = ({ text, href = '/' }: Props) => {
   const pathname = usePathname()
-  const baseClasses = 'h-[39px] font-exo text-sm font-medium uppercase border rounded-md px-[30px] hover:text-semibold hover:bg-creamy transition'
+  const baseClasses = 'h-[39px] font-exo text-sm font-medium text-black_1 uppercase border rounded-md px-[30px] hover:text-semibold hover:bg-creamy transition'
 
   return (
     <Link
