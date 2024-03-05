@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className='font-inter'>
+      <body className='font-inter tracking-[0.07em]'>
         <main className="flex min-h-screen flex-col items-center justify-between">
           <Header />
           {children}

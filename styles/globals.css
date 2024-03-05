@@ -12,5 +12,6 @@ body {
 }
 
 .bg_gradient_text {
-  @apply bg-gradient-to-r from-[#BEE035] via-[#844071] to-[#404F84];
+  @apply bg-gradient-to-r from-[#BEE035] via-[#844071] to-[#404F84] bg-clip-text;
+  -webkit-text-fill-color: transparent;
 }

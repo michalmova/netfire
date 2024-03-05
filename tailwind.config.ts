@@ -11,14 +11,18 @@ const config: Config = {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
         exo: ['Exo', 'sans-serif'],
+        grotesk: ["Space Grotesk", 'sans-serif']
       },
       colors: {
         'black_1': '#111010',
+        'black_2': '#1C1B1B',
         purple: '#404F84',
         gray: '#D9D9D9',
         'gray_1': '#827D7D',
         'gray_2': '#443B3B',
         'gray_3': '#5F5959',
+        'gray_4': 'rgba(217, 217, 217, 0.19)',
+        'gray_5': '#41423E',
         'creamy': '#E5E5DF'
       },
       padding: {
@@ -29,6 +33,5 @@ const config: Config = {
   plugins: [],
 };
 export default config;
-
 
 

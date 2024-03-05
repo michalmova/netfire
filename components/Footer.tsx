@@ -1,23 +1,22 @@
 import ColoredStripe from "@components/ColoredStripe"
 import { brandName } from "@utils/globals"
 import Token from "./icons/Token"
+import ColoredText from "./ColoredText"
 
 const Footer = () => {
-  const AuthorsRights = () => (
-    <span className="font-inter text-[11px] text-gray_3 font-normal leading-[13px]">
-      © 2024 <strong>{brandName}</strong> All rights reserved. Unauthorized use or copying of this brand is strictly prohibited. No part of this website may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of <strong>{brandName}</strong>, except in the case of brief quotations embodied in critical reviews and certain other non-commercial uses permitted by copyright law.`
-    </span>
-  )
-
   return (
     <footer className="bg-gray w-full">
       <ColoredStripe />
-      <div className="px-content py-6 h-full flex items-center justify-between gap-10 tracking-[0.07em]">
-        <div className="flex items-center justify-center gap-5">
+      <div className="px-content py-6 h-full flex items-center justify-between gap-10">
+        <div className="flex items-center justify-center gap-3">
           <Token />
           <span className="font-exo font-semibold text-gray_2 text-2xl whitespace-nowrap">{brandName}</span>
         </div>
-        <AuthorsRights />
+        <ColoredText
+          text={`© 2024 <colored>${brandName}</colored> All rights reserved. Unauthorized use or copying of this brand is strictly prohibited. No part of this website may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of <colored>${brandName}</colored>, except in the case of brief quotations embodied in critical reviews and certain other non-commercial uses permitted by copyright law.`}
+          textClasses="font-inter text-[11px] text-gray_3 font-normal leading-[13px]"
+          coloredTextClasses="font-bold"
+        />
       </div>
     </footer>
   )
