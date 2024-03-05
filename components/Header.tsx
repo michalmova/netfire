@@ -3,10 +3,10 @@ import Nav from "@components/Nav"
 
 const Header = () => {
   return (
-    <div className="w-full flex flex-col items-center">
+    <header className="w-full flex flex-col items-center">
       <Advert text="new customers get 15% off! use code" emphasizedText="welcome15" />
       <Nav />
-    </div>
+    </header>
 
   )
 }

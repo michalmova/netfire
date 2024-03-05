@@ -35,11 +35,11 @@ const IconButtons = () => (
 
 const Nav = () => {
   return (
-    <div className="h-[101px] w-full px-content grid grid-cols-3 items-center">
+    <nav className="px-content py-[18px] w-full grid grid-cols-3 items-center">
       <TextButtons />
       <Token />
       <IconButtons />
-    </div>
+    </nav>
   )
 }
 
