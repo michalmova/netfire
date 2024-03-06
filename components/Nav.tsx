@@ -5,7 +5,6 @@ import Person from "@components/icons/Person"
 import Search from "@components/icons/Search"
 import Token from "@components/icons/Token"
 
-
 const TextButtons = () => (
   <ul className="font-exo font-semibold flex gap-[15px]">
     <li> <NavButtonText text='home' href="/" /> </li>
@@ -37,7 +36,9 @@ const Nav = () => {
   return (
     <nav className="px-content py-[18px] w-full grid grid-cols-3 items-center">
       <TextButtons />
-      <Token />
+      <span className="z-[-1]">
+        <Token />
+      </span>
       <IconButtons />
     </nav>
   )
