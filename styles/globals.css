@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #ECECEC
+  @apply bg-white_1
 }
 
 .bg_gradient_stripe {
@@ -14,4 +14,8 @@ body {
 .bg_gradient_text {
   @apply bg-gradient-to-r from-[#BEE035] via-[#844071] to-[#404F84] bg-clip-text;
   -webkit-text-fill-color: transparent;
+}
+
+.range_input {
+  @apply accent-lime cursor-pointer;
 }

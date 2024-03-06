@@ -14,6 +14,7 @@ const config: Config = {
         grotesk: ["Space Grotesk", 'sans-serif']
       },
       colors: {
+        'white_1': '#ECECEC',
         'black_1': '#111010',
         'black_2': '#1C1B1B',
         purple: '#404F84',
@@ -23,7 +24,9 @@ const config: Config = {
         'gray_3': '#5F5959',
         'gray_4': 'rgba(217, 217, 217, 0.19)',
         'gray_5': '#41423E',
-        'creamy': '#E5E5DF'
+        'gray_6': '#C9C4C1',
+        'creamy': '#E5E5DF',
+        lime: '#CAE871'
       },
       padding: {
         'content': '291.5px'
