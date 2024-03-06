@@ -16,6 +16,57 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.range_input {
-  @apply accent-lime cursor-pointer;
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+input[type="range"]::-webkit-slider-runnable-track {
+  background: black;
+  height: 20px;
+  border-radius: 10px;
+  -webkit-appearance: none;
+  height: 20px;
+  border-radius: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  @apply shadow-lime shadow-[-1000px_0_0_1000px] bg-lime;
+  height: 20px;
+  width: 20px;
+}
+
+/***** EE *****/
+input[type="range"]::-ms-fill-lower {
+  @apply bg-lime;
+  height: 20px;
+  border-radius: 10px 0 0 10px;
+}
+
+/******** Firefox ********/
+input[type="range"]::-moz-range-track {
+  background: black;
+  height: 20px;
+  border-radius: 10px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  @apply bg-lime;
+  height: 20px;
+  width: 20px;
+  border: none;
+  border-radius: 0;
+}
+
+input[type="range"]::-moz-range-progress {
+  @apply bg-lime;
+  height: 20px;
+  border-radius: 10px 0 0 10px;
 }
