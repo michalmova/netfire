@@ -17,7 +17,7 @@ const Hero = () => {
         controls={false}
         loop={true}
         muted={true}
-        className="absolute top-0 left-0 w-full object-center object-cover"
+        className="absolute top-0 left-0 h-full w-full object-center object-cover"
       >
         <source src={'pexels-taryn-elliott-9206132.mp4'} type="video/mp4" />
       </video>
