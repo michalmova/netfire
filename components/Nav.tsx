@@ -34,7 +34,7 @@ const IconButtons = () => (
 
 const Nav = () => {
   return (
-    <nav className="px-content py-[18px] w-full grid grid-cols-3 items-center">
+    <nav className="padding_x py-[18px] w-full grid grid-cols-3 items-center">
       <TextButtons />
       <span className="z-[-1]">
         <Token />

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray w-full">
       <ColoredStripe />
-      <div className="px-content py-6 h-full flex items-center justify-between gap-10">
+      <div className="padding_x py-6 h-full flex items-center justify-between gap-10">
         <div className="flex items-center justify-center gap-3">
           <Token />
           <span className="font-exo font-semibold text-gray_2 text-2xl whitespace-nowrap">{brandName}</span>

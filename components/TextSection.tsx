@@ -12,7 +12,7 @@ interface Props {
 
 const TextSection = ({ badgeTitle, children, seeMoreBtnTitle }: Props) => {
   return (
-    <section className="px-content flex flex-col items-center gap-10 py-10">
+    <section className="padding_x flex flex-col items-center gap-10 py-10">
       <span className="flex flex-col items-center gap-5">
         {badgeTitle && <Badge text="example section" />}
         {children}

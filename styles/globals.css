@@ -16,6 +16,10 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.padding_x {
+  @apply px-10 2xl:px-2xl
+}
+
 input[type="range"] {
   -webkit-appearance: none;
   appearance: none;

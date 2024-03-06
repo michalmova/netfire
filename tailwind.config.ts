@@ -29,7 +29,7 @@ const config: Config = {
         lime: '#CAE871'
       },
       padding: {
-        'content': '291.5px'
+        '2xl': '291.5px',
       }
     },
   },

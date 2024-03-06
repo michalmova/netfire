@@ -23,7 +23,7 @@ const Hero = () => {
       </video>
 
       <span className="w-full h-full bg-black bg-opacity-30 absolute top-0 left-0 right-0"></span>
-      <div className="px-content h-[900px] pb-40 pt-80 flex flex-col absolute top-0 left-0 right-0">
+      <div className="padding_x h-[900px] pb-40 pt-80 flex flex-col absolute top-0 left-0 right-0">
         <Badge
           text="lorem ipsum"
           customClasses="text-white py-3"
