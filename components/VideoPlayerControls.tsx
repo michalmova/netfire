@@ -14,8 +14,6 @@ const VideoPlayerControls = ({ videoElement, autoPlay }: Props) => {
   const [isPlaying, setIsPlaying] = useState(autoPlay);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
-  const [timePosition, settimePosition] = useState(0);
-
 
   const handlePlayPause = () => {
     const video = videoElement.current;
